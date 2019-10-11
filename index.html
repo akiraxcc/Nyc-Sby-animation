@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello! MTA Subway</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--     <style>
+      body {
+        margin: 0;
+      }
+      main {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+      }
+      img {
+        max-width: 100%;
+      }
+      video {
+        max-width: 100%;
+      }
+    </style> -->
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+    <main>
+    
+    <div class="wrapper">
+
+      <div class="sec1">
+        <div class="rails" ></div>
+        <div class="train" id="plannedWork"></div>
+        <div class="ground"></div>
+        <!-- blue Line -->
+      <div class="subway subway-a">A</div>
+      <div class="subway subway-c">C</div>
+      <div class="subway subway-e">E</div>
+      </div>
+      
+      <div class="sec2">
+        <div class="rails"></div>
+        <div class="train" ></div>
+        <div class="ground"></div>
+        <!-- orange Line -->
+      <div class="subway subway-b">B</div>
+      <div class="subway subway-d">D</div>
+      <div class="subway subway-f">F</div>
+      <div class="subway subway-m">M</div>
+      </div>
+      
+      <div class="sec2">
+        <div class="rails"></div>
+        <div class="train" id="emergency"></div>
+        <div class="ground"></div>
+        <!-- brown Line -->
+      <div class="subway subway-j">J</div>
+      <div class="subway subway-z">Z</div>
+      </div>
+      
+      <div class="sec2">
+        <div class="rails" id="stop"></div>
+        <div class="train" id="outOfService"></div>
+        <div class="ground"></div>
+        <!-- grey Line -->
+      <div class="subway subway-l">L</div>
+      </div>
+      
+      <div class="sec2">
+        <div class="rails"></div>
+        <div class="train"></div>
+        <div class="ground"></div>
+        <!-- yellow Line -->
+      <div class="subway subway-n">N</div>
+      <div class="subway subway-q">Q</div>
+      <div class="subway subway-r">R</div>
+      </div>
+      
+      <div class="sec2">
+        <div class="rails"></div>
+        <div class="train"></div>
+        <div class="ground"></div>
+        <!-- red Line -->
+      <div class="subway subway-1">1</div>
+      <div class="subway subway-2">2</div>
+      <div class="subway subway-3">3</div>
+      </div>
+      
+      <div class="sec2">
+        <div class="rails" id="delays" ></div>
+        <div class="train"></div>
+        <div class="ground"></div>
+        <!-- green Line -->
+      <div class="subway subway-4">4</div>
+      <div class="subway subway-5">5</div>
+      <div class="subway subway-6">6</div>
+      </div>
+      
+      <div class ="sec1">
+        <h1>
+          MTA Service Status
+        </h1>
+      </div>
+      
+      
+    </div>
+        
+      
+    </main>
+    
+<!--     <script>
+      setTimeout(refresh, 15000)
+      function refresh() {
+        location.reload(true)
+      }
+    </script> -->
+  </body>
+</html>
