@@ -1,0 +1,304 @@
+/* CSS files add styling rules to your content */
+
+
+/* //Subway Lines
+$subway-ace: #2850AD;
+$subway-bdfm: #FF6319;
+$subway-g: #6CBE45;
+$subway-jz: #996633;
+$subway-l: #A7A9AC;
+$subway-nqr: #FCCC0A;
+$subway-s: #808183;
+$subway-123: #EE352E;
+$subway-456: #00933C;
+$subway-7: #B933AD; */
+
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+}
+
+main{
+/*   height:1920px;
+  width: 1080px; */
+  overflow: hidden !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+
+
+.wrapper {
+	height: 1920px;
+	width: 1080px;
+	margin: auto;
+	overflow: hidden !important;
+}
+
+
+.sec1 {
+position: relative;
+width: 1080px;
+height: 90px;
+}
+
+
+
+.sec2 {
+  position: relative;
+  width: 1080px;
+  height: 90px;
+}
+
+
+.subway {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 21 px;
+  font-weight: 700;
+}
+
+.subway-a {
+  background-color:#2850AD;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+  
+}
+
+.subway-c{
+  background-color:#2850AD;
+  position: relative;
+  left: 20px;
+  Top: 20px;
+}
+
+.subway-e{
+  background-color:#2850AD;
+  position: relative;
+  left: 20px;
+  Top: 20px;
+}
+
+.subway-b{
+
+  background-color:#FF6319;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-d{
+
+  background-color:#FF6319;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-f{
+
+  background-color:#FF6319;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-m{
+
+  background-color:#FF6319;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-j{
+
+  background-color:#996633;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-z{
+
+  background-color:#996633;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-l{
+
+  background-color:#A7A9AC;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-n{
+  background-color:#FCCC0A;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-q{
+  background-color:#FCCC0A;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-r{
+  background-color:#FCCC0A;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+
+}
+
+.subway-1{
+  background-color:#EE352E;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+}
+
+.subway-2{
+  background-color:#EE352E;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+}
+
+.subway-3{
+  background-color:#EE352E;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+}
+
+.subway-4{
+  background-color:#00933C;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+}
+
+.subway-5{
+  background-color:#00933C;
+ position: relative;
+	left: 20px;
+  Top: 20px;
+}
+
+.subway-6{
+  background-color:#00933C;
+  position: relative;
+	left: 20px;
+  Top: 20px;
+}
+
+h1{
+  color: white;
+  margin:0;
+  line-height: 30px;
+  position: relative;
+/*   text-align: center; */
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  left:20px;
+  
+  
+}
+
+.train {
+	position: absolute;
+	top: 3px;
+	height: 300px;
+	width: 1080px;
+	right: 200px;
+	background: url(https://docs.google.com/uc?export=download&id=0B2PO2Lr7Bv2QandQOVZSTjBETGs);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+}
+
+
+
+.rails {
+	position: absolute;
+	top: 20px;
+	height: 300px;
+	width: 1080px;
+	background: url(https://docs.google.com/uc?export=download&id=0B2PO2Lr7Bv2QZmtCbjlIbjVwclk);
+	background-repeat: repeat-x;
+	background-position: top center;
+	background-size: contain;
+	animation: translateX 5s infinite linear both;
+}
+
+
+#delays{
+  animation: translateX 10s infinite linear both;
+}
+
+#outOfService{
+  right:500px;
+  
+}
+
+#plannedWork{
+  right:500px;
+  animation: translateX 15s infinite linear both;
+}
+
+#stop{
+animation-play-state: paused;
+}
+
+#emergency{
+  
+  right:600px;
+  animation: translateX 10s infinite linear both;
+  
+}
+
+
+
+
+.ground {
+  position: absolute;
+  width: 1080px;
+  height: 80px;
+  top: 110px;
+  background: #16012f;
+}
+
+@keyframes translateX {
+	0% {background-position: 0px 0px;}
+	100% {background-position:  1080px 0px;}
+}
